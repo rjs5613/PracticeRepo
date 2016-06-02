@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.money</groupId>
+	<artifactId>MoneyPOC</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>MoneyPOC</name>
+	<description>POC For Java Money and JODA Money</description>
+
+	<dependencies>
+		<!-- JODA Money Dependencies -->
+		<dependency>
+			<groupId>org.joda</groupId>
+			<artifactId>joda-money</artifactId>
+			<version>0.10.0</version>
+		</dependency>
+		
+		<!-- JAVA Money Dependencies -->
+		<dependency>
+			<groupId>org.javamoney</groupId>
+			<artifactId>moneta</artifactId>
+			<version>0.9</version>
+		</dependency>
+
+	</dependencies>
+</project>

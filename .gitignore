@@ -1,0 +1,11 @@
+*.class
+*.prefs
+*.jar
+*.name
+*.container
+*.component
+*.classpath
+*.MF
+*.project
+*.wsdd*
+*.jsdt*

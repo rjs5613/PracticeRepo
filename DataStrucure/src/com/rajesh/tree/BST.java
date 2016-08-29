@@ -30,21 +30,19 @@ public class BST<T extends Comparable<T>> {
 	}
 
 	private BTreeNode<T> getEligibleNode(T data) {
-		
-		if(rootNode.compareTo(data)>0){
-			if(rootNode.getLeftChild() == null){
+
+		if (rootNode.compareTo(data) > 0) {
+			if (rootNode.getLeftChild() == null) {
 				return rootNode;
 			}
 			rootNode = rootNode.getLeftChild();
 			return getEligibleNode(data);
 		} else {
-			if(rootNode.getRightChild() == null){
+			if (rootNode.getRightChild() == null) {
 				return rootNode;
 			}
 			rootNode = rootNode.getRightChild();
 			return getEligibleNode(data);
 		}
-
-
 	}
 }

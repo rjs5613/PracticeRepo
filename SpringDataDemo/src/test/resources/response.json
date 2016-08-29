@@ -1,0 +1,324 @@
+{
+	"Header": {
+		"Time": "2016-08-24T02:07:46-07:00",
+		"ReportName": "ProfitAndLoss",
+		"ReportBasis": "Accrual",
+		"StartPeriod": "2016-08-01",
+		"EndPeriod": "2016-08-09",
+		"SummarizeColumnsBy": "Classes",
+		"Currency": "USD",
+		"Option": [
+			{
+				"Name": "AccountingStandard",
+				"Value": "GAAP"
+			},
+			{
+				"Name": "NoReportData",
+				"Value": "false"
+			}
+		]
+	},
+	"Columns": {
+		"Column": [
+			{
+				"ColTitle": "",
+				"ColType": "Account",
+				"MetaData": [
+					{
+						"Name": "ColKey",
+						"Value": "account"
+					}
+				]
+			},
+			{
+				"ColTitle": "Class 1",
+				"ColType": "Money",
+				"MetaData": [
+					{
+						"Name": "ColKey",
+						"Value": "1300000000000013207"
+					}
+				]
+			},
+			{
+				"ColTitle": "Class2",
+				"ColType": "Money",
+				"MetaData": [
+					{
+						"Name": "ColKey",
+						"Value": "1300000000000013208"
+					}
+				]
+			},
+			{
+				"ColTitle": "Not Specified",
+				"ColType": "Money",
+				"MetaData": [
+					{
+						"Name": "ColKey",
+						"Value": "not_specified"
+					}
+				]
+			},
+			{
+				"ColTitle": "TOTAL",
+				"ColType": "Money",
+				"MetaData": [
+					{
+						"Name": "ColKey",
+						"Value": "total"
+					}
+				]
+			}
+		]
+	},
+	"Rows": {
+		"Row": [
+			{
+				"Header": {
+					"ColData": [
+						{
+							"value": "Income"
+						},
+						{
+							"value": ""
+						},
+						{
+							"value": ""
+						},
+						{
+							"value": ""
+						},
+						{
+							"value": ""
+						}
+					]
+				},
+				"Rows": {
+					"Row": [
+						{
+							"ColData": [
+								{
+									"value": "Sales",
+									"id": "1"
+								},
+								{
+									"value": "6000.00"
+								},
+								{
+									"value": "1000.00"
+								},
+								{
+									"value": "5300.00"
+								},
+								{
+									"value": "12300.00"
+								}
+							],
+							"type": "Data"
+						},
+						{
+							"ColData": [
+								{
+									"value": "Shipping, Delivery Income",
+									"id": "30"
+								},
+								{
+									"value": ""
+								},
+								{
+									"value": ""
+								},
+								{
+									"value": "6000.00"
+								},
+								{
+									"value": "6000.00"
+								}
+							],
+							"type": "Data"
+						}
+					]
+				},
+				"Summary": {
+					"ColData": [
+						{
+							"value": "Total Income"
+						},
+						{
+							"value": "6000.00"
+						},
+						{
+							"value": "1000.00"
+						},
+						{
+							"value": "11300.00"
+						},
+						{
+							"value": "18300.00"
+						}
+					]
+				},
+				"type": "Section",
+				"group": "Income"
+			},
+			{
+				"Summary": {
+					"ColData": [
+						{
+							"value": "Gross Profit"
+						},
+						{
+							"value": "6000.00"
+						},
+						{
+							"value": "1000.00"
+						},
+						{
+							"value": "11300.00"
+						},
+						{
+							"value": "18300.00"
+						}
+					]
+				},
+				"type": "Section",
+				"group": "GrossProfit"
+			},
+			{
+				"Header": {
+					"ColData": [
+						{
+							"value": "Expenses"
+						},
+						{
+							"value": ""
+						},
+						{
+							"value": ""
+						},
+						{
+							"value": ""
+						},
+						{
+							"value": ""
+						}
+					]
+				},
+				"Rows": {
+					"Row": [
+						{
+							"ColData": [
+								{
+									"value": "Advertising",
+									"id": "8"
+								},
+								{
+									"value": ""
+								},
+								{
+									"value": ""
+								},
+								{
+									"value": "2000.00"
+								},
+								{
+									"value": "2000.00"
+								}
+							],
+							"type": "Data"
+						},
+						{
+							"ColData": [
+								{
+									"value": "Freight & Delivery",
+									"id": "39"
+								},
+								{
+									"value": ""
+								},
+								{
+									"value": ""
+								},
+								{
+									"value": "1000.00"
+								},
+								{
+									"value": "1000.00"
+								}
+							],
+							"type": "Data"
+						}
+					]
+				},
+				"Summary": {
+					"ColData": [
+						{
+							"value": "Total Expenses"
+						},
+						{
+							"value": "0.00"
+						},
+						{
+							"value": "0.00"
+						},
+						{
+							"value": "3000.00"
+						},
+						{
+							"value": "3000.00"
+						}
+					]
+				},
+				"type": "Section",
+				"group": "Expenses"
+			},
+			{
+				"Summary": {
+					"ColData": [
+						{
+							"value": "Net Operating Income"
+						},
+						{
+							"value": "6000.00"
+						},
+						{
+							"value": "1000.00"
+						},
+						{
+							"value": "8300.00"
+						},
+						{
+							"value": "15300.00"
+						}
+					]
+				},
+				"type": "Section",
+				"group": "NetOperatingIncome"
+			},
+			{
+				"Summary": {
+					"ColData": [
+						{
+							"value": "Net Income"
+						},
+						{
+							"value": "6000.00"
+						},
+						{
+							"value": "1000.00"
+						},
+						{
+							"value": "8300.00"
+						},
+						{
+							"value": "15300.00"
+						}
+					]
+				},
+				"type": "Section",
+				"group": "NetIncome"
+			}
+		]
+	}
+}
